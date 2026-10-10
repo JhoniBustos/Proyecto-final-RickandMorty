@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Multiverse</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="app-title">Rick and Morty Multiverse 🛸</h1>
+
+        <!-- Menú de navegación principal -->
+        <nav class="nav-bar">
+            <button id="btncharacters" class="nav-btn">Characters</button>
+            <button id="btnlocations" class="nav-btn">Locations</button>
+            <button id="btnepisodes" class="nav-btn">Episodes</button>
+            <button id="btnfavorites" class="nav-btn btn-special">⭐ My Favorites</button>
+        </nav>
+    </header>
+    <main class="main-content">
+
+        <!--Contenedor dinamico donde inyectaremos datos-->
+        <div id="datacontainer" class="grid-container">
+            <p class="loading-text">Welcome! select a categori above.</p>
+        </div>
+    </main>
+
+    <!--footer vacio que personalizamos con JS-->
+    <footer id="mainfooter" class="dynamic-footer"></footer>
+
+</body>
+
+</html>
